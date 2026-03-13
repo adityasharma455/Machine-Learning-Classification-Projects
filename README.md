@@ -47,6 +47,12 @@ A machine learning project to predict whether a telecom customer will **churn or
 ### Model Evaluation
 Models are compared using **accuracy score**.
 
+### Model Accuracy Comparison
+
+Below is the accuracy comparison of different machine learning algorithms used for customer churn prediction.
+
+![Model Accuracy Comparison](model_accuracy_comparison.png)
+
 ---
 
 ## Technologies Used
