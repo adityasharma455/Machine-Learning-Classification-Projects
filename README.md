@@ -51,7 +51,7 @@ Models are compared using **accuracy score**.
 
 Below is the accuracy comparison of different machine learning algorithms used for customer churn prediction.
 
-![Model Accuracy Comparison](model_accuracy_comparison.png)
+![Model Accuracy Comparison](images/model_accuracy_comparison.png)
 
 ---
 
@@ -69,7 +69,7 @@ A regression project that predicts **California housing prices** using multiple 
 
 ### Model Performance Comparison
 
-![Housing Model Comparison](housing_model_comparison.png)
+![Housing Model Comparison](images/housing_model_comparison.png)
 
 ### Key Concepts
 - Regularization
@@ -89,7 +89,7 @@ This project demonstrates how **polynomial regression** can model nonlinear rela
 
 ### Polynomial Regression Visualization
 
-![Polynomial Regression](polynomial_regression_plot.png)
+![Polynomial Regression](images/polynomial_regression_plot.png)
 
 ---
 
