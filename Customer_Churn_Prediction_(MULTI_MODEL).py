@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
@@ -54,9 +55,29 @@ models = {
     "SVM": SVC()
 }
 
-# Model training & evaluation
+results = {}
+
 for name, model in models.items():
     model.fit(X_train, y_train)
     predictions = model.predict(X_test)
     accuracy = accuracy_score(y_test, predictions)
+    results[name] = accuracy
     print(f"{name} Accuracy: {accuracy * 100:.2f}%")
+
+# Create accuracy comparison graph
+model_names = list(results.keys())
+accuracies = list(results.values())
+
+plt.figure()
+plt.bar(model_names, accuracies)
+plt.xlabel("Models")
+plt.ylabel("Accuracy")
+plt.title("Model Accuracy Comparison - Customer Churn Prediction")
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+
+# Save graph as image
+plt.savefig("model_accuracy_comparison.png")
+
+plt.close()
