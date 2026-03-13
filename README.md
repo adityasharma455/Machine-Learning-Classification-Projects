@@ -1,6 +1,6 @@
-# Machine Learning Classification Projects
+# Machine Learning Projects (Classification & Regression)
 
-This repository contains machine learning classification projects implemented in Python using Scikit-Learn.  
+This repository contains machine learning projects implemented in Python using Scikit-Learn.  
 The goal of these projects is to understand the complete machine learning workflow including data preprocessing, model training, evaluation, and comparison of different algorithms.
 
 ---
@@ -55,12 +55,52 @@ Below is the accuracy comparison of different machine learning algorithms used f
 
 ---
 
+## 3. Housing Price Prediction
+
+A regression project that predicts **California housing prices** using multiple regression models.
+
+### Algorithms Used
+- Linear Regression
+- Ridge Regression
+- Lasso Regression
+
+### Model Evaluation
+- R² Score
+
+### Model Performance Comparison
+
+![Housing Model Comparison](housing_model_comparison.png)
+
+### Key Concepts
+- Regularization
+- Feature selection using Lasso
+- Model comparison
+
+---
+
+## 4. Polynomial Regression
+
+This project demonstrates how **polynomial regression** can model nonlinear relationships better than simple linear regression.
+
+### Techniques Used
+- Polynomial Feature Transformation
+- Linear Regression
+- Model visualization
+
+### Polynomial Regression Visualization
+
+![Polynomial Regression](polynomial_regression_plot.png)
+
+---
+
 ## Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
+- Matplotlib
+- Seaborn
 
 ---
 
